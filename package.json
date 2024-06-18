@@ -1,12 +1,23 @@
 {
-  "name": "proyecto-curso-asincronismo",
+  "name": "async-landing-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alirioi/async-landing-project.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alirioi/async-landing-project/issues"
+  },
+  "homepage": "https://github.com/alirioi/async-landing-project#readme",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
